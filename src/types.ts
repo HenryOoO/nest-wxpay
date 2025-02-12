@@ -108,6 +108,12 @@ export interface WechatOptions {
   apiv3Key: string
 }
 
+export interface WechatAsyncOptions {
+  imports?: any[];
+  useFactory?: (...args: any[]) => Promise<WechatOptions> | WechatOptions;
+  inject?: any[];
+}
+
 export interface VerifySignOptions {
   timestamp: number
   nonce_str: string
