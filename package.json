@@ -4,14 +4,12 @@
   "description": "一款可以实现微信支付功能的nestjs模块",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
-  "homepage": "https://cxladder.cn",
   "scripts": {
     "build": "tsup"
   },
-  "author": "冯子健 <fengzijian@kelansheng.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jaques-tino/nest-wxpay.git"
+    "url": "git+https://github.com/HenryOoO/nest-wxpay.git"
   },
   "packageManager": "pnpm@9.1.1",
   "license": "Apache License 2.0",
